@@ -8,12 +8,8 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message
 logger = logging.getLogger(__name__)
 
 
-# 定义判别器，用于输出需要添加图像的概率
 class Estimator(torch.nn.Module):
-    '''
-    :param bert_model: 将所需要的bert模型传入进来
-    :param resnet_model: 将需要的resnet模型传入进来
-    '''
+ 
     def __init__(self, CLIPModel):
         super(Estimator, self).__init__()
         self.CLIPModel = CLIPModel
