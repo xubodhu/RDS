@@ -155,6 +155,11 @@ After you have prepared the required data as well as the model, your file struct
  |-- my_bert	# MNER Model
  |    |-- mner_modeling.py
  |    |-- ...
+ 
+ |-- pretrained_models
+ |    |-- bert-base-uncased
+ |    |-- bert-base-cased
+ |    |-- CLIP_model
 
  |-- run_mner.py # main (MNER)
 
