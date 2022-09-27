@@ -90,13 +90,13 @@ The model comes from [thecharm](https://github.com/thecharm/Mega)  and its refer
 
 - `pytorch_encoder.bin` is the parameters of the ResNet model, and `pytorch_encoder_2015.bin` is the parameters of the ResNet model after training in the Twitter2015 task. 
 
-- `umt_2015.bin`  and `bert_crf_2015.bin` are the multimodal and  unimodal  models trained in train_pre.txt(Twitter2015), respectively.
+- `umt_2015.bin`  and `bert_crf_2015.bin` are the multimodal and  unimodal  models trained in train_pre.txt (Twitter2015), respectively.
 
-- `umt_2015_all.bin`  and `bert_crf_2015_all.bin` are the multimodal and  unimodal  models trained in train.txt(Twitter2015), respectively.
+- `umt_2015_all.bin`  and `bert_crf_2015_all.bin` are the multimodal and  unimodal  models trained in train.txt (Twitter2015), respectively.
 
-- `MEGA.pth.tar`  and `MTB.pth.tar` are the multimodal and  unimodal  models trained in ours_train_pre.txt(MNRE), respectively.
+- `MEGA.pth.tar`  and `MTB.pth.tar` are the multimodal and  unimodal  models trained in ours_train_pre.txt (MNRE), respectively.
 
-- `MEGA_all.pth.tar`  and `MTB_all.pth.tar` are the multimodal and  unimodal  models trained in ours_train.txt(MNRE), respectively.
+- `MEGA_all.pth.tar`  and `MTB_all.pth.tar` are the multimodal and  unimodal  models trained in ours_train.txt (MNRE), respectively.
 
 - `prob_2015.txt` and `prob_mre.txt` are the prediction results of our trained data discriminator on Twitter2015 and on the MNRE dataset, respectively.
 
@@ -105,7 +105,7 @@ The model comes from [thecharm](https://github.com/thecharm/Mega)  and its refer
 After you have prepared the required data as well as the model, your file structure should look like this:
 
 ```
-**RDS**
+RDS
  |-- data	# MNER text data
  |    |-- twitter2015
  |    |    |    |-- train.txt	# Training set
