@@ -2,7 +2,7 @@
 
 The pytorch implementation of "**Different Data, Different Modalities! Reinforced Data Splitting for Effective Multimodal Information Extraction from Social Media Posts**" (COLING 2022).
 
-![image-20220926203118771](C:\Users\86155\AppData\Roaming\Typora\typora-user-images\image-20220926203118771.png)
+![Framework](./framework.jpg)
 
 # Environment
 
