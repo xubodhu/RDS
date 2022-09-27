@@ -104,6 +104,7 @@ The model comes from [thecharm](https://github.com/thecharm/Mega)  and its refer
 
 After you have prepared the required data as well as the model, your file structure should look like this:
 
+```
 **RDS**
  |-- data	# MNER text data
  |    |-- twitter2015
@@ -160,6 +161,7 @@ After you have prepared the required data as well as the model, your file struct
  |-- run_mre.py # main (MRE)
 
  |-- ner_evaluate.py
+```
 
 # Training Data Discriminator
 
